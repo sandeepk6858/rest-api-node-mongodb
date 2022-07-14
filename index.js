@@ -13,7 +13,6 @@ mongoose.connect(process.env.DB_CONNECTION,
   {useNewUrlParser: true } , () => console.log('connected to db')
 );
 
-
 app.get('/', (req, res) => {
     res.send('Hello Node!!')
 });
