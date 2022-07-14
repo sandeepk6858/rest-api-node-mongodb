@@ -15,7 +15,7 @@ router.post('/',async (req,res) => {
     })
 })
 
-router.post('/specific',async (req,res) => {
+router.get('/specific',async (req,res) => {
     res.send('I am a specific post')
 })
 
